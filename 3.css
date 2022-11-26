@@ -1,0 +1,59 @@
+.container{
+display: flex;
+justify-content: center;
+
+}
+.chat {
+width: 480px;
+height: 350px;
+padding: 15px;
+border-color: lightgray;
+border-style: solid;
+border-width: 1px;
+}
+.sendMessage {
+  display: flex;
+ justify-content: space-between;
+margin-bottom: 10px;
+}
+.messageText {
+  width: 250px;
+  padding: 7px;
+  border-radius: 0;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 3px;
+}
+.button {
+  background-color: lightblue;
+  border-color: lightblue;
+  border-radius: 0;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.output {
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 3px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.message {
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 11px;
+  margin: 7px;
+  width: 50%;
+  padding: 8px;
+}
+.sent{
+align-self: flex-start;
+}
+.received{
+align-self: flex-end;
+}
